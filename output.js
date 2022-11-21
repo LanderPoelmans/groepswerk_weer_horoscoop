@@ -86,3 +86,4 @@ let horoscopeQuotes = ["There are two ways of spreading light. To be the candle 
 let i = Math.floor(Math.random() * 19);
 console.log(i);
 console.log(horoscopeQuotes[i]);
+document.getElementById('quoteOfTheMoment').innerHTML = horoscopeQuotes[i];
