@@ -9,5 +9,5 @@ function setInput() {
     sessionStorage.setItem('name', name);
     sessionStorage.setItem('city', city);
     sessionStorage.setItem('year', year);
-    window.location.href = 'output.html';
+    window.location.href = 'horoscoop.html';
 }
