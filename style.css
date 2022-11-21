@@ -1,6 +1,42 @@
+.container{
+    background-image: url("zodiac2.jpg");
+    border-radius: 10px;
+}
+
+h1{
+    color:#124C5B;
+    font-weight: 700;
+    padding: 3em
+}
+
+h3{
+    color:#124C5B;
+    font-weight: 500;
+    padding: 1em
+}
 .banner{
     height: 35%;
 }
 .margin{
-    margin : 30px;
+    margin : 20px;
+}
+
+body{
+    background-color: #B4CCD1;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input{
+    border-color: #C19C70;
+    border-radius: 10px;
+    color:#124C5B;
+}
+button{
+    background-color: #124C5B;
+    border-radius: 10px;
+    border: 0px;
+    padding: 0.5em;
+    color: azure;
+    margin: 2em;
+
 }
