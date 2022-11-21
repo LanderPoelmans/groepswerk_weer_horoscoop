@@ -71,20 +71,18 @@ if (zodiac_number == 12) {
 }
 
 console.log(zodiac);
-let horoscopeQuotes = {
-    rat: ["There are two ways of spreading light. To be the candle or the mirror that reflects it.", "You do not find the happy life. You make it."],
-    ox: ["The most wasted of days is one without laughter.", "Stay close to anything that makes you glad you are alive."],
-    tiger: ["Make each day your masterpiece.", "Happiness often sneaks in through a door you did not know you left open."],
-    rabbit: ["Happiness is not by chance, but by choice.", "Life changes very quickly, in a very positive way, if you let it."],
-    dragon: ["Keep your face to the sunshine and you cannot see a shadow.", "Impossible is for the unwilling."],
-    snake: ["No pressure, no diamonds.", "Believe you can and you are halfway there."],
-    horse: ["Failure is the condiment that gives success its flavor.", "It is never too late to be what you might have been."],
-    goat: ["When you have a dream, you have got to grab it and never let go.", "You must be the change you wish to see in the world."],
-    monkey: ["Stay foolish to stay sane.", "Stay hungry. Stay foolish."],
-    rooster: ["Whatever you are, be a good one.", "You must do the things you think you cannot do."],
-    dog: ["Wherever you go, go with all your heart.", "Be faithful to that which exists within yourself."],
-    pig: ["Dream big and dare to fail.", "You are enough just as you are."]
-};
-let i = Math.floor(Math.random() * 2);
+let horoscopeQuotes = ["There are two ways of spreading light. To be the candle or the mirror that reflects it.", "You do not find the happy life. You make it.",
+    "The most wasted of days is one without laughter.", "Stay close to anything that makes you glad you are alive.",
+    "Make each day your masterpiece.", "Happiness often sneaks in through a door you did not know you left open.",
+    "Happiness is not by chance, but by choice.", "Life changes very quickly, in a very positive way, if you let it.",
+    "Keep your face to the sunshine and you cannot see a shadow.", "Impossible is for the unwilling.",
+    "No pressure, no diamonds.", "Believe you can and you are halfway there.",
+    "Failure is the condiment that gives success its flavor.", "It is never too late to be what you might have been.",
+    "When you have a dream, you have got to grab it and never let go.", "You must be the change you wish to see in the world.",
+    "Stay foolish to stay sane.", "Stay hungry. Stay foolish.",
+    "Whatever you are, be a good one.", "You must do the things you think you cannot do.",
+    "Wherever you go, go with all your heart.", "Be faithful to that which exists within yourself.",
+    "Dream big and dare to fail.", "You are enough just as you are."];
+let i = Math.floor(Math.random() * 19);
 console.log(i);
-console.log(horoscopeQuotes.rat[i]);
+console.log(horoscopeQuotes[i]);
