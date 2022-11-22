@@ -1,8 +1,8 @@
 let temp = document.getElementById("currentTemperature");
 let weather = document.getElementById("currentWheaterImage"); // spelling mistake in ID
 let descr = document.getElementById("weatherDescription");
-let city = sessionStorage.getItem('city');
-let weatherApi = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/" + city + "?unitGroup=metric&include=current&key=P9J7ZGZ9SBGSZQTDBMT86WNN3&contentType=json";
+let city_ = sessionStorage.getItem('city');
+let weatherApi = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/" + city_ + "?unitGroup=metric&include=current&key=P9J7ZGZ9SBGSZQTDBMT86WNN3&contentType=json";
 
 fetch(weatherApi)
     .then(results => results.json())
