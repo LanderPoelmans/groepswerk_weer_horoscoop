@@ -24,13 +24,13 @@ h3{
     height: 35%;
 }
 .margin{
-    margin : 20px;
+    margin-top : 20px;
 }
 .padding{
     padding :1em;
 }
-body{
-    background-color: #B4CCD1;
+body, .backgroundcolour{
+    background-color: #C59663;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -48,20 +48,18 @@ input{
     margin: 2em;
 }
 #quoteOfTheMoment{
-    color:#EB693F;
+    color:#124C5B;;
     font-size: 2em;
 
 }
 
 .temp{
     font-size: 6em;
-    margin-top: auto;
-    margin-bottom: auto;
+    color:#124C5B;
 }
-
-.transparant{
-    background-color: rgba(255, 255, 255, 0.78);
-}
-.backgroundcolour{
-    background-color: #B4CCD1;
+.frame{
+    background-color: #c5966348;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 2em;
 }
