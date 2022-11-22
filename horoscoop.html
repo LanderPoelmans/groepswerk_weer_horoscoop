@@ -16,17 +16,18 @@
 <body>
     <div class="container wrap">
         <div class="row margin">
-            <div class="col-md-3"><img src="" class="rounded mx-auto d-block" id="currentWeatherImage"></img></div>
-            <div class="col-md-3 text-center temp" id="currentTemperature"></div>
-            <div class="col-md-3 text-center weather" id="weatherDescription"></div>
-            <div class="col-md-3"><button id="refreshButton">Refresh</button></div>
+            <div class="col-md-3 d-flex align-items-center padding"><img src="" class="rounded" id="currentWeatherImage"></img></div>
+            <div class="col-md-3 d-flex align-items-center text-center temp padding" id="currentTemperature"></div>
+            <div class="col-md-3 d-flex align-items-center text-center padding" id="weatherDescription"></div>
+            <div class="col-md-3 d-flex align-items-center text-center padding"><button class="buttonstyle" id="refreshButton">Refresh</button></div>
         </div>
         <div class="row margin banner text-center">
             <div class="col-md-12 title" id="welcomeMessage"></div>
         </div>
-        <div class="row margin">
-            <div class="col-md-8"><img src="" class="rounded mx-auto d-block" id="chineseHoroscope"></img></div>
-            <div class="col-md-4 text-center"id="quoteOfTheMoment"></div>
+        <div class="row margin transparant">
+            <div class="col-md-4 d-flex align-items-center padding"><img src="" class="rounded mx-auto d-block img-fluid" id="chineseHoroscope"></img></div>
+            <div class="col-md-4 d-flex align-items-center padding" id="element"></div>
+            <div class="col-md-4 d-flex align-items-center text-center padding"id="quoteOfTheMoment"></div>
         </div>
     </div>
     <script src="output.js"></script>

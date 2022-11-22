@@ -10,7 +10,7 @@ h1{
 }
 .title{
     color:#124C5B;
-    font-size: 6em;
+    font-size: 4em;
     font-weight: 700;
     padding: 0.5em
 }
@@ -26,7 +26,9 @@ h3{
 .margin{
     margin : 20px;
 }
-
+.padding{
+    padding :1em;
+}
 body{
     background-color: #B4CCD1;
     font-family: 'Quicksand', sans-serif;
@@ -37,18 +39,17 @@ input{
     border-radius: 10px;
     color:#124C5B;
 }
-button{
+.buttonstyle{
     background-color: #124C5B;
     border-radius: 10px;
     border: 0px;
     padding: 0.5em;
     color: azure;
     margin: 2em;
-
 }
 #quoteOfTheMoment{
     color:#EB693F;
-    font-size: 4em;
+    font-size: 2em;
 
 }
 
@@ -57,7 +58,7 @@ button{
     margin-top: auto;
     margin-bottom: auto;
 }
-.weather{    
-  margin-top: auto;
-  margin-bottom: auto;
+
+.transparant{
+    background-color: rgba(255, 255, 255, 0.78);
 }
