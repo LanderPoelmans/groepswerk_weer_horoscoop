@@ -3,7 +3,9 @@ let year = sessionStorage.getItem('year');
 let city = sessionStorage.getItem('city');
 console.log(year, city, name_user);
 document.getElementById('welcomeMessage').innerHTML = "<p>" + "Welcome, " + name_user + " " + year + "</p>";
-
+document.getElementById('refreshButton').addEventListener("click", function(){
+    window.location.reload();
+});
 let zodiac_number = 0;
 if (year < 2000) {
     year -= 1900;
