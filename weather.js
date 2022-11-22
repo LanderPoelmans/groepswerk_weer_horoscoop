@@ -8,7 +8,7 @@ fetch(weatherApi)
     .then(results => results.json())
     .then(data => {
         console.log(data);
-        temp.innerHTML = data.currentConditions.temp;
+        temp.innerHTML = data.currentConditions.temp + "°C";
         let conditions = data.currentConditions.icon;
         let description = data ["days"] ["0"] ["description"]; //alternative way of writing because of "0" (data.days.0.description)
         descr.innerHTML = description;
