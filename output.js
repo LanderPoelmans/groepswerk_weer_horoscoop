@@ -4,7 +4,6 @@ let city = sessionStorage.getItem('city');
 console.log(year, city, name_user);
 document.getElementById('welcomefield').innerHTML = "<p>" + "Welcome, " + name_user + "</p>";
 
-document.getElementById('welcomefield').innerHTML = "<p>" + "Welcome, " + name_user + "</p>";
 let zodiac_number = 0;
 if (year < 2000) {
     year -= 1900;
