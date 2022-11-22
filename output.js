@@ -25,51 +25,51 @@ else if (year >= 2000 && year < 3000) {
 let zodiac = "";
 if (zodiac_number == 1) {
     zodiac = "rat";
-    document.getElementById('chineseHoroscope').innerHTML = "<img src=\"https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-03.png\">";
+    document.getElementById('chineseHoroscope').src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-03.png";
 }
 if (zodiac_number == 2) {
     zodiac = "ox";
-    document.getElementById('chineseHoroscope').innerHTML = "<img src=\"https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-04.png\">";
+    document.getElementById('chineseHoroscope').src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-04.png";
 }
 if (zodiac_number == 3) {
     zodiac = "tiger";
-    document.getElementById('chineseHoroscope').innerHTML = "<img src=\"https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-05.png\">";
+    document.getElementById('chineseHoroscope').src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-05.png";
 }
 if (zodiac_number == 4) {
     zodiac = "rabbit";
-    document.getElementById('chineseHoroscope').innerHTML = "<img src=\"https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-06.png\">";
+    document.getElementById('chineseHoroscope').src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-06.png";
 }
 if (zodiac_number == 5) {
     zodiac = "dragon";
-    document.getElementById('chineseHoroscope').innerHTML = "<img src=\"https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-07.png\">";
+    document.getElementById('chineseHoroscope').src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-07.png";
 }
 if (zodiac_number == 6) {
     zodiac = "snake";
-    document.getElementById('chineseHoroscope').innerHTML = "<img src=\"https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-08.png\">";
+    document.getElementById('chineseHoroscope').src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-08.png";
 }
 if (zodiac_number == 7) {
     zodiac = "horse";
-    document.getElementById('chineseHoroscope').innerHTML = "<img src=\"https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-09.png\">";
+    document.getElementById('chineseHoroscope').src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-09.png";
 }
 if (zodiac_number == 8) {
     zodiac = "goat";
-    document.getElementById('chineseHoroscope').innerHTML = "<img src=\"https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-10.png\">";
+    document.getElementById('chineseHoroscope').src= "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-10.png";
 }
 if (zodiac_number == 9) {
     zodiac = "monkey";
-    document.getElementById('chineseHoroscope').innerHTML = "<img src=\"https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-11.png\">";
+    document.getElementById('chineseHoroscope').src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-11.png";
 }
 if (zodiac_number == 10) {
     zodiac = "rooster";
-    document.getElementById('chineseHoroscope').innerHTML = "<img src=\"https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-12.png\">";
+    document.getElementById('chineseHoroscope').src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-12.png";
 }
 if (zodiac_number == 11) {
     zodiac = "dog";
-    document.getElementById('chineseHoroscope').innerHTML = "<img src=\"https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-13.png\">";
+    document.getElementById('chineseHoroscope').src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-13.png";
 }
 if (zodiac_number == 12) {
     zodiac = "pig";
-    document.getElementById('chineseHoroscope').innerHTML = "<img src=\"https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-14.png\">";
+    document.getElementById('chineseHoroscope').src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-14.png";
 }
 
 console.log(zodiac);
