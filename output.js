@@ -28,7 +28,8 @@ if(character == 8 || character == 9){
 }
 console.log(element);
 let logo_element = document.getElementById("element");
-element.src = element + ".png";
+let path = element + ".png";
+logo_element.src = path;
 
 
 let zodiac_number = 0;
