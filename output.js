@@ -6,6 +6,31 @@ document.getElementById('welcomeMessage').innerHTML = "<p>" + "Welcome, " + name
 document.getElementById('refreshButton').addEventListener("click", function () {
     window.location.reload();
 });
+character = year.toString();
+console.log(year);
+character = year.charAt(3);
+console.log(character);
+let element ="";
+if(character == 0 || character == 1){
+    element = "metal";
+}
+if(character == 2 || character == 3){
+    element = "water";
+}
+if(character == 4 || character == 5){
+    element = "wood";
+}
+if(character == 6 || character == 7){
+    element = "fire";
+}
+if(character == 8 || character == 9){
+    element = "earth";
+}
+console.log(element);
+let logo_element = document.getElementById("element");
+element.src = element + ".png";
+
+
 let zodiac_number = 0;
 if (year < 2000) {
     year -= 1900;
