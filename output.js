@@ -10,20 +10,20 @@ character = year.toString();
 console.log(year);
 character = year.charAt(3);
 console.log(character);
-let element ="";
-if(character == 0 || character == 1){
+let element = "";
+if (character == 0 || character == 1) {
     element = "metal";
 }
-if(character == 2 || character == 3){
+if (character == 2 || character == 3) {
     element = "water";
 }
-if(character == 4 || character == 5){
+if (character == 4 || character == 5) {
     element = "wood";
 }
-if(character == 6 || character == 7){
+if (character == 6 || character == 7) {
     element = "fire";
 }
-if(character == 8 || character == 9){
+if (character == 8 || character == 9) {
     element = "earth";
 }
 console.log(element);
@@ -52,52 +52,42 @@ let zodiac = "";
 let chineseHoroscope = document.getElementById('chineseHoroscope');
 if (zodiac_number == 1) {
     zodiac = "rat";
-    chineseHoroscope.src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-03.png";
 }
-if (zodiac_number == 2) {
+else if (zodiac_number == 2) {
     zodiac = "ox";
-    chineseHoroscope.src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-04.png";
 }
-if (zodiac_number == 3) {
+else if (zodiac_number == 3) {
     zodiac = "tiger";
-    chineseHoroscope.src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-05.png";
 }
-if (zodiac_number == 4) {
+else if (zodiac_number == 4) {
     zodiac = "rabbit";
-    chineseHoroscope.src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-06.png";
 }
-if (zodiac_number == 5) {
+else if (zodiac_number == 5) {
     zodiac = "dragon";
-    chineseHoroscope.src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-07.png";
 }
-if (zodiac_number == 6) {
+else if (zodiac_number == 6) {
     zodiac = "snake";
-    chineseHoroscope.src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-08.png";
 }
-if (zodiac_number == 7) {
+else if (zodiac_number == 7) {
     zodiac = "horse";
-    chineseHoroscope.src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-09.png";
 }
-if (zodiac_number == 8) {
+else if (zodiac_number == 8) {
     zodiac = "goat";
-    chineseHoroscope.src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-10.png";
 }
-if (zodiac_number == 9) {
+else if (zodiac_number == 9) {
     zodiac = "monkey";
-    chineseHoroscope.src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-11.png";
+    chineseHoroscope.src = "monkey.png";
 }
-if (zodiac_number == 10) {
+else if (zodiac_number == 10) {
     zodiac = "rooster";
-    chineseHoroscope.src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-12.png";
 }
-if (zodiac_number == 11) {
+else if (zodiac_number == 11) {
     zodiac = "dog";
-    chineseHoroscope.src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-13.png";
 }
-if (zodiac_number == 12) {
+else if (zodiac_number == 12) {
     zodiac = "pig";
-    chineseHoroscope.src = "https://thewoksoflife.com/wp-content/uploads/2020/01/TWOL_chinese-zodiac-14.png";
 }
+chineseHoroscope.src = zodiac + ".png";
 
 console.log(zodiac);
 let horoscopeQuotes = ["There are two ways of spreading light. To be the candle or the mirror that reflects it.", "You do not find the happy life. You make it.",
