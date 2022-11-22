@@ -1,4 +1,4 @@
-.container{
+.wrap{
     background-image: url("zodiac2.jpg");
     border-radius: 10px;
 }
@@ -7,6 +7,12 @@ h1{
     color:#124C5B;
     font-weight: 700;
     padding: 3em
+}
+.title{
+    color:#124C5B;
+    font-size: 6em;
+    font-weight: 700;
+    padding: 0.5em
 }
 
 h3{
@@ -39,4 +45,19 @@ button{
     color: azure;
     margin: 2em;
 
+}
+#quoteOfTheMoment{
+    color:#EB693F;
+    font-size: 4em;
+
+}
+
+.temp{
+    font-size: 6em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.weather{    
+  margin-top: auto;
+  margin-bottom: auto;
 }
