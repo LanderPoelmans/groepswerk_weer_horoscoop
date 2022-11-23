@@ -2,7 +2,7 @@ let temp = document.getElementById("currentTemperature");
 let weather = document.getElementById("currentWeatherImage");
 let descr = document.getElementById("weatherDescription");
 let city_ = sessionStorage.getItem('city');
-let weatherApi = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/" + city_ + "?unitGroup=metric&include=current&key=P9J7ZGZ9SBGSZQTDBMT86WNN3&contentType=json";
+let weatherApi = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/" + city_ + "?unitGroup=metric&include=current&key=3ECPEGB6DR5Q62NJ733EM48Z5&contentType=json";
 
 fetch(weatherApi)
     .then(results => results.json())
